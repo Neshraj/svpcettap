@@ -1,4 +1,3 @@
-import { BrowserRouter as Router, Link, Route, Switch } from 'react-router-dom';
 import "../styles/Login.css";
 import 'react-toastify/dist/ReactToastify.css';
 import { ToastContainer, toast } from 'react-toastify';
@@ -65,10 +64,6 @@ function Login(){
     
             if(allfeild && check){
                 if(rollnumber && password){
-                    let logindata = {
-                        rollnumber : rollnumber,
-                        password : password
-                    }
 
                     //Data base starts hear
 
