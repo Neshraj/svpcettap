@@ -375,8 +375,10 @@
   #opendelfile{
     display: none;
     position: absolute;
+    overflow-y: scroll;
     top: 20%;
     left: 20%;
+    height: 55vh;
     flex-direction: column;
     top: 100px;
     left: 200px;
