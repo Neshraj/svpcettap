@@ -4,9 +4,8 @@
 }
 
 #homemain{
-    border: px solid #000;
     width: 100vw;
-    height: 100vh;
+    height: 98vh;
     display: flex;
     flex-direction: row;
     margin: 0;
