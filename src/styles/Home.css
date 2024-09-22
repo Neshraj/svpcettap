@@ -375,7 +375,7 @@
   #opendelfile{
     display: none;
     position: absolute;
-    overflow-y: scroll;
+    overflow-y: auto;
     top: 20%;
     left: 20%;
     height: 55vh;
