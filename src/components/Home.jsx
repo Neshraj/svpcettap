@@ -26,7 +26,7 @@ function Home(){
 
       };
     const navigate = useNavigate();
-    const mainServerUrl ="http://localhost:4000/";
+    const mainServerUrl ="https://svpcettapserver.onrender.com/";
 
     let [allFiles,setallFiles] = useState([]);
 
