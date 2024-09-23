@@ -5,6 +5,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 function Home(){
+
     const location = useLocation();
     const { user } = location.state || {};
     const rollnumber = user ? user.rollnumber : 'No roll number provided';
@@ -25,7 +26,15 @@ function Home(){
         }
 
       };
+
     const navigate = useNavigate();
+
+    window.addEventListener("beforeunload", function (event) {
+        event.preventDefault();
+        // Some browsers require this to display the prompt
+        event.returnValue = '';
+    });
+    
     const mainServerUrl ="https://svpcettapserver.onrender.com/";
 
     let [allFiles,setallFiles] = useState([]);
