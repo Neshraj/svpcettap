@@ -155,11 +155,11 @@ function Login(){
                 draggable
                 
                 />
-                <h1>ONLINE FILES</h1>
+                <h1>TAP STUDENTS SVPCET</h1>
                 <div id="loginbox">
                     
-                    
-                    <input class="logitms"type="text" id='rollnumber' placeholder='User id'/>
+                    <h1>Signin or signup</h1>
+                    <input class="logitms"type="text" id='rollnumber' placeholder='Roll number'/>
                     <div id='sapp'>
                         <input class="logitms" type="password" id="password" placeholder='Password'/>
                         <span id="show-password-btn2" onClick={togglePasswordVisibility}>Show</span>
