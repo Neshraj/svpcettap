@@ -35,7 +35,7 @@ function Home(){
         event.returnValue = '';
     });
     
-    const mainServerUrl ="https://svpcettapserver.onrender.com/";
+    const mainServerUrl ="https://svpcettapserver-raj1.onrender.com/";
 
     let [allFiles,setallFiles] = useState([]);
 
